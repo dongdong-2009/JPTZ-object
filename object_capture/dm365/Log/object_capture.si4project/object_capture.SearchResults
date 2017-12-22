@@ -1,0 +1,6 @@
+---- fd_com Matches (5 in 3 files) ----
+process_uartcmd in ctrl.c (F:\DM368Data\2.Share4or3\object_capture\dm365) :     ret = read(fd_com, serbuf, CMDLEN);
+ctrlThrFxn in ctrl.c (F:\DM368Data\2.Share4or3\object_capture\dm365) : 	fd_com = check_port_open("/dev/ttyS1", 115200);   
+ctrlThrFxn in ctrl.c (F:\DM368Data\2.Share4or3\object_capture\dm365) : 	clear_send(fd_com);
+ctrl.h (F:\DM368Data\2.Share4or3\object_capture\dm365) line 115 : int  fd_com;
+ProcessUsartSend in mymenugui.c (F:\DM368Data\2.Share4or3\object_capture\dm365\encodets) : 	ret = write(fd_com, SendData, 3);
